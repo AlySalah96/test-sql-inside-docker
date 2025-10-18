@@ -11,7 +11,7 @@ class Program
 
         try
         {
-            Console.WriteLine("🚀 Connecting to SQL Server... alyyyyyyyyyyyyyyyyyyyyyyyy");
+            Console.WriteLine("🚀 Connecting to SQL Server... alyyyyyyyyyyyyyyyyyyyyyyyypppp");
             using var masterConn = new SqlConnection(connectionString);
             await masterConn.OpenAsync();
 
