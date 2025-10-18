@@ -24,6 +24,8 @@ services:
   testapp:
     build: .
     container_name: test-connet-sql-inside-docker-container
+    image: alysalah1996/testsqlinsidedocker:latest
+    pull_policy: always
     depends_on:
       sqlserver:
         condition: service_healthy
